@@ -11,23 +11,28 @@ const MainLeft = () => {
 
         <span className="text-[#87868A] text-sm">Tuesday, 16th May 2024</span>
       </div>
-      <section className="max-h-[77px] flex place-content-center justify-between border border-gray-300 p-2 rounded-md my-2 bg-white">
-        <div>
-          <h1 className="text-[#1A1A1A] font-semibold">Are you enjoying MS Space?</h1>
-          <span className="text-[#5F5E63] text-sm">It only takes 1 minute</span>
+      <section class="h-full flex place-content-center justify-between border border-gray-300 p-2 rounded-md my-2 bg-white">
+        <div class="w-full">
+          {" "}
+          <h1 class="text-[#1A1A1A] font-semibold">
+            Are you enjoying MS Space?
+          </h1>
+          <span class="text-[#5F5E63] text-sm">It only takes 1 minute</span>
         </div>
-        <div className="space-x-2">
-          <span className="bg-[#1C2458] rounded-md p-1 inline-flex content-center">
+        <div class="space-x-2 sm:mt-2">
+          {" "}
+          <span class="bg-[#1C2458] rounded-md p-1 inline-flex content-center">
             Learn a review
           </span>
-          <span className="rounded-md p-1 inline-flex text-[#1C2458]">
+          <span class="rounded-md p-1 inline-flex text-[#1C2458]">
             Maybe later
           </span>
-          <span className="rounded-md p-1 inline-flex text-[#1C2458]">
+          <span class="rounded-md p-1 inline-flex text-[#1C2458]">
             Don't ask me again
           </span>
         </div>
       </section>
+
       <section className="flex flex-col justify-between h-[116px] border border-gray-300 p-2 rounded-md my-2 bg-white">
         <div>
           <div className="flex justify-between text-gray-500 b">
@@ -45,7 +50,7 @@ const MainLeft = () => {
           complete your profile
         </span>
       </section>
-      <section className="grid grid-cols-2 gap-2">
+      <section className="grid sm:grid-cols-2 grid-cols-1  gap-2">
         <div className="col-span-1 p-1 bg-slate-200 border border-gray-300 rounded-md">
           <div className="flex flex-col  p-1">
             <div className="flex justify-between">
@@ -126,7 +131,7 @@ const MainLeft = () => {
         </div>
       </section>
       <section>
-        <TableComponent/>
+        <TableComponent />
       </section>
     </div>
   )
