@@ -10,22 +10,22 @@ import {
 
 const Sidenav = () => {
   return (
-    <div className="">
-      <div>
+    <div className="h-full">
+      <div className="px-4">
         <img
           src="/ms-logo.png"
           alt="Logo"
-          className="h-full mx-auto mb-2 object-contain my-4"
+          className="h-20 w-44 object-contain my-2"
         />
       </div>
       <div className="h-full w-72 bg-white shadow-md flex flex-col justify-between">
         {/* Upper Section */}
 
-        <div className="p-4">
+        <div className="p-2">
           {/* Logo */}
 
           {/* Nav Links */}
-          <ul className="text-sm py-1">
+          <ul className="text-[14px] py-1">
             <li className="text-gray-700 font-semibold uppercase mb-2 cursor-pointer hover:bg-gray-100 rounded-md flex items-center px-3">
               <HomeIcon className="w-5 h-5 mr-2" />
               Home
@@ -65,7 +65,7 @@ const Sidenav = () => {
         </div>
 
         {/* Lower Section */}
-        <div className="mt-auto p-4">
+        <div className=" p-2">
           <div className="flex items-center mb-2">
             <img
               src="/ava.png"
