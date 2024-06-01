@@ -18,7 +18,7 @@ const Sidenav = () => {
           className="h-20 w-44 object-contain my-2"
         />
       </div>
-      <div className="h-full w-72 bg-white shadow-md flex flex-col justify-between">
+      <div className="h-full w-72 bg-white flex flex-col justify-between">
         {/* Upper Section */}
 
         <div className="p-2">

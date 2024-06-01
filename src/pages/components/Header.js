@@ -14,7 +14,7 @@ const Header = () => {
           Workspace
         </a>
         <span
-          className="text-white font-bold uppercase mx-2"
+          className="text-white font-bold uppercase "
           style={{ color: "#2E303B" }}
         >
           |
@@ -27,7 +27,7 @@ const Header = () => {
           Learn
         </a>
         <span
-          className="text-white font-bold uppercase mx-2"
+          className="text-white font-bold uppercase "
           style={{ color: "#2E303B" }}
         >
           |

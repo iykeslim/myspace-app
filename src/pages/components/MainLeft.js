@@ -5,6 +5,14 @@ const MainLeft = () => {
   return (
     <div className="w-full">
       {/* Your content for the left section */}
+      <div className="my-4">
+      <h1 className="text-lg text-[#1A1A1A]">SOO Agency</h1>
+        
+        <span className="text-[#87868A] text-sm">
+           Tuesday, 16th May 2024 
+        </span>
+       
+      </div>
       <section className="max-h-[77px] flex place-content-center justify-between border border-gray-300 p-2 rounded-md my-2 bg-white">
         <div>
           <h1 className="text-[#1A1A1A]">Are you enjoying MS Space?</h1>
@@ -39,12 +47,83 @@ const MainLeft = () => {
           complete your profile
         </span>
       </section>
-      <section className="grid grid-cols-2">
-        <div className="col-span-1 p-1">
-          <h1>recent activity</h1>
-        
+      <section className="grid grid-cols-2 gap-2">
+        <div className="col-span-1 p-1 bg-slate-200">
+          <div className="flex flex-col border border-gray-300 rounded-md p-1">
+            <div className="flex justify-between">
+              <h1 className="text-gray-400">recent activity</h1>
+              <h3 className="text-gray-400">View all</h3>
+            </div>
+            <div className="flex justify-between items-center text-gray-400 p-4">
+              <div className="flex flex-col">
+                <h1>Audit</h1>
+                <h4 className="text-sm">Cyz Enterprise</h4>
+              </div>
+              <div className="text-sm">
+                <h4>8hr ago</h4>
+              </div>
+            </div>
+            <span className="border-b border-gray-300"></span>
+            <div className="flex justify-between items-center text-gray-400 p-4">
+              <div className="flex flex-col">
+                <h1>Audit</h1>
+                <h4 className="text-sm">Cyz Enterprise</h4>
+              </div>
+              <div className="text-sm">
+                <h4>8hr ago</h4>
+              </div>
+            </div>
+            <span className="border-b border-gray-300"></span>
+            <div className="flex justify-between items-center text-gray-400 p-4">
+              <div className="flex flex-col">
+                <h1>Audit</h1>
+                <h4 className="text-sm">Cyz Enterprise</h4>
+              </div>
+              <div className="text-sm">
+                <h4>8hr ago</h4>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="col-span-1 p-1"></div>
+        <div className="col-span-1 p-1  bg-slate-200">
+          <div className="col-span-1 p-1 bg-slate-100">
+            <div className="flex flex-col border border-gray-300 rounded-md p-1">
+              <div className="flex justify-between">
+                <h1 className="text-gray-400">recent activity</h1>
+                <h3 className="text-gray-400">View all</h3>
+              </div>
+              <div className="flex justify-between items-center text-gray-400 p-4">
+                <div className="flex flex-col">
+                  <h1>Audit</h1>
+                  <h4 className="text-sm">Cyz Enterprise</h4>
+                </div>
+                <div className="text-sm">
+                  <h4>8hr ago</h4>
+                </div>
+              </div>
+              <span className="border-b border-gray-300"></span>
+              <div className="flex justify-between items-center text-gray-400 p-4">
+                <div className="flex flex-col">
+                  <h1>Audit</h1>
+                  <h4 className="text-sm">Cyz Enterprise</h4>
+                </div>
+                <div className="text-sm">
+                  <h4>8hr ago</h4>
+                </div>
+              </div>
+              <span className="border-b border-gray-300"></span>
+              <div className="flex justify-between items-center text-gray-400 p-4">
+                <div className="flex flex-col">
+                  <h1>Audit</h1>
+                  <h4 className="text-sm">Cyz Enterprise</h4>
+                </div>
+                <div className="text-sm">
+                  <h4>8hr ago</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   )
