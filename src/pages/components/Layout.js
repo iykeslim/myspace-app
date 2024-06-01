@@ -7,15 +7,15 @@ import MainRight from "./MainRight.js"
 const Layout = ({ children }) => {
   return (
     <>
-      <div className="grid grid-cols-12 border-2 border-red-500 min-h-screen overflow-y-auto overflowx-x-hidden">
-        <div className="col-span-12 lg:col-span-3 hidden lg:grid border border-yellow-500">
+      <div className="grid grid-cols-12 min-h-screen overflow-y-auto overflowx-x-hidden">
+        <div className="col-span-12 lg:col-span-2 hidden lg:grid p-0 m-0 fixed-sidebar">
           <Sidenav />
         </div>
 
-        <div className="col-span-12 lg:col-span-9 grid border border-green-500">
+        <div className="col-span-12 w-[100%] lg:col-span-10 lg:ml-[calc(100%/12*2.4)] grid">
           <Header />
 
-          <main className="grid grid-cols-12 gap-x-0 lg:gap-x-5 2xl:gap-x-6 px-5 2xl:px-6 bg-slate-100">
+          <main className="grid grid-cols-12 gap-x-0 lg:gap-x-5 2xl:gap-x-6 px-5 2xl:px-6 bg-slate-100 mt-16">
             <div className="col-span-12 lg:col-span-9">
               <MainLeft />
             </div>

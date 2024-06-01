@@ -17,7 +17,7 @@ const MainLeft = () => {
           <span className="text-[#5F5E63] text-sm">It only takes 1 minute</span>
         </div>
         <div className="space-x-2">
-          <span className="bg-[#1C2458] rounded-md p-1 inline-flex">
+          <span className="bg-[#1C2458] rounded-md p-1 inline-flex content-center">
             Learn a review
           </span>
           <span className="rounded-md p-1 inline-flex text-[#1C2458]">

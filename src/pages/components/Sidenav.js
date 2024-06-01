@@ -10,19 +10,16 @@ import {
 
 const Sidenav = () => {
   return (
-    <div className="h-full">
-      <div className="px-4">
-        <img
-          src="/ms-logo.png"
-          alt="Logo"
-          className="h-20 w-44 object-contain my-2"
-        />
-      </div>
-      <div className="h-full w-72 bg-white flex flex-col justify-between">
-        {/* Upper Section */}
-
+    <div className=" h-screen overflow-y-hidden">
+      <div className="h-full bg-white flex flex-col justify-between">
         <div className="p-2">
-          {/* Logo */}
+          <div className="px-4">
+            <img
+              src="/ms-logo.png"
+              alt="Logo"
+              className="h-20 w-full object-contain my-2"
+            />
+          </div>
 
           {/* Nav Links */}
           <ul className="text-[14px] py-1">

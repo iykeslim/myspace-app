@@ -22,11 +22,24 @@ html {
 }
 
 body {
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Initial full width */
+}
+
+@media (min-width: 1024px) {
+  .fixed-sidebar {
+    width: calc(100% / 12 * 2); /* Adjust to 2 columns width */
   }
 }

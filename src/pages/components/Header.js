@@ -3,7 +3,7 @@ import { HelpIcon, SettingsIcon } from "@heroicons/react/24/solid"
 
 const Header = () => {
   return (
-    <div className="h-16 bg-[#FFFFFF] flex items-center justify-between px-4">
+    <div className="h-16 w-[calc(100vw/12*9.865)] bg-[#FFFFFF]  flex items-center justify-between px-4 fixed">
       {/* Left Text */}
       <div className="flex items-center">
         <a
